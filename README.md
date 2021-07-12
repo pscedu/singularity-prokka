@@ -5,12 +5,19 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-prokka)
 
 # singularity-prokka
-Singularity recipe for [prokka](https://github.com/icaoberg/prokka).
+## Installing the container on Bridges 2
+Copy the
+
+* `SIF` file
+* and the `ascp` script
+
+to `/opt/packages/aspera-connect/3.11.0.5`.
+
+Copy the file `modulefile.lua` to `/opt/modulefiles/aspera-connect` as `3.11.0.5.lua`.
 
 ## Building the image using the recipe
-
 ### To build the image locally
-Run the script `build.sh` to build image locally.
+Run the script `build.sh` to build image locally. As of today, Does not work on MacOSX.
 
 ```
 bash ./build.sh
@@ -22,6 +29,7 @@ Run the script `rbuild.sh` to build image remotely.
 ```
 bash ./rbuild.sh
 ```
+
 ## To run tests
 To run the available tests, run the command
 
