@@ -2,9 +2,10 @@ Bootstrap: docker
 From: staphb/prokka:1.14.5
 
 %labels
-    AUTHOR icaoberg
+    Maintainer icaoberg
     EMAIL icaoberg@psc.edu
-    WEBSITE http://gitlab.psc.edu/icaoberg/singularity-prokka
+    REPOSITORY https://github.com/pscedu/singularity-prokka
+    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved. 
     VERSION 1.14.5
 
 %post
